@@ -1,0 +1,23 @@
+{
+    "name": "zealousecommerce/magento2-qtymanager",
+    "description": "qty manager Hyvä Themes",
+    "type": "magento2-module",
+    "require": {
+      "hyva-themes/magento2-theme-fallback": "*",
+      "magento/framework": "*",
+      "magento/module-theme": "101.1.3-p2"
+    },
+    "authors": [{
+        "name": "Hyvä Themes B.V.",
+        "email": "info@hyva.io"
+    }],
+    "license": "see LICENSE.md",
+    "autoload": {
+      "files": [
+        "registration.php"
+      ],
+      "psr-4": {
+        "Zealousecommerce\\Qtymanager\\": ""
+      }
+    }
+  }
